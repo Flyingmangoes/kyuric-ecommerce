@@ -3,7 +3,7 @@ import { reactive, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { Eye, EyeOff, ArrowRight } from 'lucide-vue-next'
 import AuthShell from '@/components/auth/AuthShell.vue'
-import { inputCls, labelCls, submitCls } from '@/components/auth/authStyles'
+import { inputCls, labelCls, submitCls } from '@/components/auth/AuthStyle'
 
 const router = useRouter()
 const showPassword = ref(false)

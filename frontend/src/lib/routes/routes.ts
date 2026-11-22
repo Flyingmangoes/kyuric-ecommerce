@@ -9,7 +9,7 @@ export const routes: RouteRecordRaw[] = [
   {
     path: '/products',
     name: 'product-search',
-    component: () => import('@/components/placeholder_page.vue'),
+    component: () => import('@/components/PlaceholderView.vue'),
     props: { title: 'Search' },
   },
   {
@@ -27,13 +27,13 @@ export const routes: RouteRecordRaw[] = [
   {
     path: '/cart',
     name: 'cart',
-    component: () => import('@/components/placeholder_page.vue'),
+    component: () => import('@/components/PlaceholderView.vue'),
     props: { title: 'Cart' },
   },
   {
     path: '/orders',
     name: 'order',
-    component: () => import('@/components/placeholder_page.vue'),
+    component: () => import('@/components/PlaceholderView.vue'),
     props: { title: 'Orders' },
   },
   {
@@ -67,25 +67,25 @@ export const routes: RouteRecordRaw[] = [
   {
     path: '/employee',
     name: 'employee',
-    component: () => import('@/components/placeholder_page.vue'),
+    component: () => import('@/components/PlaceholderView.vue'),
     props: { title: 'Employee' },
   },
   {
     path: '/admin',
     name: 'admin',
-    component: () => import('@/components/placeholder_page.vue'),
+    component: () => import('@/components/PlaceholderView.vue'),
     props: { title: 'Admin' },
   },
   {
     path: '/health',
     name: 'health',
-    component: () => import('@/components/placeholder_page.vue'),
+    component: () => import('@/components/PlaceholderView.vue'),
     props: { title: 'Health' },
   },
   {
     path: '/:pathMatch(.*)*',
     name: 'not-found',
-    component: () => import('@/components/placeholder_page.vue'),
+    component: () => import('@/components/PlaceholderView.vue'),
     props: { title: '404 — Page Not Found' },
   },
 ]
