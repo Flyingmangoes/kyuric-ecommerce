@@ -2,7 +2,7 @@
 import { reactive, ref } from 'vue'
 import { Eye, EyeOff, ArrowRight } from 'lucide-vue-next'
 import AuthShell from '@/components/auth/AuthShell.vue'
-import { inputCls, labelCls, submitCls } from '@/components/auth/authStyles'
+import { inputCls, labelCls, submitCls } from '@/components/auth/AuthStyle'
 
 const showPassword = ref(false)
 const isLoading = ref(false)

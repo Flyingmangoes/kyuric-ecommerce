@@ -20,16 +20,16 @@ export interface OrderItemModel {
 export type OrderStage = 'placed' | 'processing' | 'in_transit' | 'delivered' | 'cancelled'
 
 export interface OrderRow {
-  orderID: string
-  ref: string
-  collection: string
-  title: string
-  specs: string
-  total: number
-  stage: OrderStage
-  statusLabel: string
-  secondaryAction: string
-  image: string
+    orderID: string
+    ref: string
+    collection: string
+    title: string
+    specs: string
+    total: number
+    stage: OrderStage
+    statusLabel: string
+    secondaryAction: string
+    image: string
 }
 
 export function mapOrderResponse(raw: Record<string, unknown>): OrderModel {
